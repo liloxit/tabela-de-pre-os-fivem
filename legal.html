@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Itens Legais - FiveM</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #f4f4f4;
+            padding: 50px;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+            color: #4caf50;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        th, td {
+            padding: 14px;
+            text-align: center;
+        }
+        th {
+            background-color: #333333;
+            color: #fff;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+        }
+        td {
+            background-color: #2a2a2a;
+            color: #ddd;
+            font-size: 1rem;
+        }
+        tr:hover {
+            background-color: #444;
+            cursor: pointer;
+        }
+        a {
+            display: inline-block;
+            background-color: #4caf50;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 6px;
+            margin-top: 30px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        a:hover {
+            background-color: #388e3c;
+            transform: translateY(-3px);
+        }
+        a:active {
+            transform: translateY(1px);
+        }
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            table {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tabela de Itens Legais</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Equipamento Médico em Geral</td>
+                <td>Kit de primeiros socorros para situações de emergência.</td>
+                <td>R$5,000</td>
+            </tr>
+            <tr>
+                <td>Kit de Ferramentas Básica</td>
+                <td>Kit completo de ferramentas para reparos de veículos.</td>
+                <td>R$2,000</td>
+            </tr>
+            <tr>
+                <td>Kit de Ferramentas Avançado</td>
+                <td>Kit de ferramentas super completos para reparar veículos.</td>
+                <td>$5,000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="index.html">Voltar para o Menu</a>
+
+</body>
+</html>

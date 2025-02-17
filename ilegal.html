@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Itens Ilegais - FiveM</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #f4f4f4;
+            padding: 50px;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+            color: #ff5722;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        th, td {
+            padding: 14px;
+            text-align: center;
+        }
+        th {
+            background-color: #272727;
+            color: #fff;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+        }
+        td {
+            background-color: #1a1a1a;
+            color: #ddd;
+            font-size: 1rem;
+        }
+        tr:hover {
+            background-color: #333;
+            cursor: pointer;
+        }
+        a {
+            display: inline-block;
+            background-color: #ff5722;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 6px;
+            margin-top: 30px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        a:hover {
+            background-color: #e64a19;
+            transform: translateY(-3px);
+        }
+        a:active {
+            transform: translateY(1px);
+        }
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            table {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tabela de Itens Ilegais</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fuzil de Alto Calibre</td>
+                <td>Arma de fogo automática, alta precisão.</td>
+                <td>$250.000</td>
+            </tr>
+            <tr>
+                <td>SMG/Sub</td>
+                <td>Arma de fogo automática, alta precisão.</td>
+                <td>$100.000</td>
+            </tr>
+            <tr>
+                <td>Pistola</td>
+                <td>Arma de fogo, alta precisão.</td>
+                <td>$50.000</td>
+            </tr>
+            <tr>
+                <td>C4</td>
+                <td>Explosivos de alta potência para destruir veículos e edificações.</td>
+                <td>$50.000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="index.html">Voltar para o Menu</a>
+
+</body>
+</html>
